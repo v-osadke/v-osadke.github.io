@@ -4,16 +4,22 @@ body {
   background-repeat: round;
 }
 
+a {
+  color: white;
+}
+
 .silent {
   margin: auto;
   color: white;
   width: 100vw;
   height: 100vh;
+  white-space:
 }
 
 .silent > span {
   margin: auto;
-  font-size: 2.2em;
+  white-space: nowrap;
+  font-size: 1.4em;
   top: 50%;
   left: 50%;
   position: absolute;
