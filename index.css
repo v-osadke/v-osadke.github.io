@@ -2,6 +2,7 @@ body {
   background: url('assets/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 a {
@@ -13,13 +14,13 @@ a {
   color: white;
   width: 100vw;
   height: 100vh;
-  white-space:
 }
 
-.silent > span {
-  margin: auto;
-  white-space: nowrap;
-  font-size: 1.4em;
+.silent > h3 {
+  font-weight: normal;
+  display: block;
+  width: 90%;
+  max-width: 780px;
   top: 50%;
   left: 50%;
   position: absolute;
